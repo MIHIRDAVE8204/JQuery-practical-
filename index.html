@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st_Jquery_prac</title>
+    <!--linking external css file-->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" /> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" /> -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <!-- linking jquery and ui from a cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <style>
+    #div4{
+        color: aliceblue;
+        font-size: xx-large;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+    }
+  </style>
+</head>
+
+
+<body>
+    <h3>click, hover, mouseenter, dblclick, mouseleave</h3>
+    <p class="main">This is paragraph one.</p>
+    <p class="sed">This is paragraph two.</p>
+    <p id="p1">This is paragraph three.</p>
+    <p id="last">This is paragraph four.</p>
+    <br>
+    <h3>hide & show </h3>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam delectus at iste sit optio consequatur rem
+        rerum in quo, iure earum. At, minus rem fuga asperiores quisquam sapiente tempore nemo.</span>
+    <br><br> <button id="hide">Hide</button>
+    <button id="show">Show</button>
+    <br>
+    <br>
+    <h3>Fade IN Fade Out toggle</h3>
+    <button>Click to fade in boxes</button><br><br>
+    <br>
+    <div id="div1" style="width:80px;height:80px;display:none;background-color:rgb(193, 235, 77);"></div><br>
+    <div id="div2" style="width:80px;height:80px;display:none;background-color:rgb(14, 97, 152);"></div><br>
+    <div id="div3" style="width:80px;height:80px;display:none;background-color:rgb(95, 16, 117);"></div>
+    <br>
+    <button id="fadeout">click here to fadeout</button>
+    <br>
+    <br><br>
+        <h3>slideup slidedown</h3>
+    <button id="stop">Stop sliding</button>
+
+    <div id="flip" style="padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #555;
+    color: white;
+    border: solid 1px #666;
+    border-radius: 3px;">Click to slide down panel</div>
+
+    <div id="panel" style="padding: 5px;
+    font-size: 18px;
+    padding: 50px;
+    display: none;
+    text-align: center;
+    background-color: #555;
+    color: white;
+    border: solid 1px #666;
+    border-radius: 3px;">Hello world!</div>
+
+    <br><br><br>
+    <h3>Animation</h3>
+    <button>Start Animation</button><br><br>
+    <div id="div4" style="width:80px;height:200px;background-color:rgb(23, 1, 29);">M <br>I<br>H<br>I<br>R</div>
+<br><br>
+
+<div>
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+        Name: <input type="text" name="fname">
+        <input type="submit" value="Submit">
+        </form>
+</div>
+</body>
+<script src="script.js">  </script>
+
+</html>
